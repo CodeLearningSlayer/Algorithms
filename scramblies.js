@@ -1,4 +1,4 @@
-function testScramble(str1, str2){
+function scramble(str1, str2){
     let arrOfLetters = Array.from(str1).reduce((acc, el) => {
         acc[el] = (acc[el] ?? 0) + 1;
         return acc;
